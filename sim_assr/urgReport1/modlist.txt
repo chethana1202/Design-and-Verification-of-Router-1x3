@@ -1,0 +1,15 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  ASSERT 
+ 37.93  37.93 
+
+
+Total modules in report: 3
+-------------------------------------------------------------------------------
+Warning: This is only the limited module list for assertion coverage because the design file can not be found in loading base coverage database.
+SCORE  ASSERT NAME       
+  0.00   0.00 uvm_pkg    
+ 33.33  33.33 router_pkg 
+ 44.44  44.44 top        
+

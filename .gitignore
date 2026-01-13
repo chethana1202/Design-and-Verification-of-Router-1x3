@@ -1,0 +1,16 @@
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# Simulation & tool files
+*.vcd
+*.fsdb
+*.log
+simv*
+work/
+csrc/
+covhtmlreport/
+modelsim.ini
+mem_cov*
+

@@ -1,0 +1,191 @@
+Group : router_pkg::scoreboard::dest_cg
+
+===============================================================================
+Group : router_pkg::scoreboard::dest_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 33.33 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BRN46/CGuruS/VLSI_RN/UVM_LABS/ROUTER1X3/sim_assr/../tb/scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_pkg::scoreboard::dest_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        4         2       33.33   
+
+
+Variables for Group  router_pkg::scoreboard::dest_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+ADDRESS  3        2         1       33.33   100  1      1        0                    
+PAYLOAD  3        2         1       33.33   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ADDRESS
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for ADDRESS
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+a1   0     1        1      
+a0   0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+a2   1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for PAYLOAD
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+large_pkt  0     1        1      
+medium_pkt 0     1        1      
+
+
+Covered bins
+
+NAME      COUNT AT LEAST 
+small_pkt 1     1        
+
+
+Group : router_pkg::scoreboard::src_cg
+
+===============================================================================
+Group : router_pkg::scoreboard::src_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 38.89 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BRN46/CGuruS/VLSI_RN/UVM_LABS/ROUTER1X3/sim_assr/../tb/scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_pkg::scoreboard::src_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        5         3       38.89   
+
+
+Variables for Group  router_pkg::scoreboard::src_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+ADDRESS  3        2         1       33.33   100  1      1        0                    
+PAYLOAD  3        2         1       33.33   100  1      1        0                    
+ERROR    2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ADDRESS
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for ADDRESS
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+a1   0     1        1      
+a0   0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+a2   1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for PAYLOAD
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+large_pkt  0     1        1      
+medium_pkt 0     1        1      
+
+
+Covered bins
+
+NAME      COUNT AT LEAST 
+small_pkt 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ERROR
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for ERROR
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+wrong 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+correct 1     1        
+
+
